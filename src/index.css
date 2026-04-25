@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'ss01', 'cv11';
+  letter-spacing: -0.005em;
+}
+
+.font-display { font-family: 'Plus Jakarta Sans', 'Inter', sans-serif; letter-spacing: -0.02em; }
+.font-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+
+code { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+
+@layer base {
+  :root {
+    /* Warm off-white neutral base */
+    --background: 40 20% 98%;        /* #FAFAF7 */
+    --foreground: 24 10% 10%;         /* near-black warm */
+    --card: 0 0% 100%;
+    --card-foreground: 24 10% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 24 10% 10%;
+
+    --primary: 24 10% 12%;
+    --primary-foreground: 40 20% 98%;
+
+    --secondary: 30 10% 94%;
+    --secondary-foreground: 24 10% 12%;
+
+    --muted: 30 10% 96%;
+    --muted-foreground: 25 6% 40%;
+
+    --accent: 217 60% 96%;
+    --accent-foreground: 222 70% 30%;
+
+    /* Brand accent — calm, professional slate blue */
+    --accent-500: 221 72% 48%;        /* #2253d1 */
+    --accent-600: 221 75% 40%;
+    --accent-50:  217 80% 97%;
+
+    /* Warm coral — secondary accent for hero treatment */
+    --coral-500: 14 72% 60%;          /* ~#dd7958 */
+    --coral-600: 14 65% 50%;
+    --coral-50:  18 80% 96%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 30 10% 90%;
+    --input: 30 10% 90%;
+    --ring: 221 72% 48%;
+
+    --chart-1: 221 72% 48%;
+    --chart-2: 160 45% 40%;
+    --chart-3: 28 80% 55%;
+    --chart-4: 280 40% 55%;
+    --chart-5: 340 60% 55%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Warm dark neutral base — calm, premium */
+    --background: 24 10% 7%;         /* deep warm charcoal */
+    --foreground: 30 12% 94%;
+    --card: 24 8% 10%;
+    --card-foreground: 30 12% 94%;
+    --popover: 24 8% 10%;
+    --popover-foreground: 30 12% 94%;
+
+    --primary: 30 12% 94%;
+    --primary-foreground: 24 10% 10%;
+
+    --secondary: 24 6% 16%;
+    --secondary-foreground: 30 12% 94%;
+
+    --muted: 24 6% 14%;
+    --muted-foreground: 30 6% 62%;
+
+    --accent: 221 50% 18%;
+    --accent-foreground: 30 12% 94%;
+
+    /* Slate blue brightened for dark backgrounds */
+    --accent-500: 221 80% 68%;
+    --accent-600: 221 85% 75%;
+    --accent-50:  221 35% 14%;       /* tinted dark surface */
+
+    /* Coral brightened for dark backgrounds */
+    --coral-500: 14 75% 65%;
+    --coral-600: 14 80% 72%;
+    --coral-50:  14 35% 14%;         /* tinted dark surface */
+
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 30 12% 94%;
+
+    --border: 24 6% 18%;
+    --input: 24 6% 18%;
+    --ring: 221 80% 68%;
+
+    --chart-1: 221 80% 68%;
+    --chart-2: 160 50% 55%;
+    --chart-3: 28 80% 65%;
+    --chart-4: 280 50% 70%;
+    --chart-5: 340 65% 65%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; }
+  h1,h2,h3,h4,h5 { font-family: 'Plus Jakarta Sans', 'Inter', sans-serif; letter-spacing: -0.02em; }
+}
