@@ -9,11 +9,11 @@ export const profile = {
   heroImage:
     "https://customer-assets.emergentagent.com/job_minimal-design-cv/artifacts/kvryq2eh_image1.jpeg",
   location: "Mumbai, India",
-  email: "vilas.khade@example.com",
+  email: "hello@vilaskhade.cc",
   phone: "+91 98765 43210",
-  website: "vilaskhade.design",
+  website: "vilaskhade.cc",
   social: {
-    linkedin: "linkedin.com/in/vilaskhade",
+    linkedin: "https://www.linkedin.com/in/vilas-khade-58740622/",
     dribbble: "dribbble.com/vilaskhade",
     behance: "behance.net/vilaskhade"
   }

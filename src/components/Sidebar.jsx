@@ -25,6 +25,17 @@ const toolIconMap = {
   Camtasia: Video,
 };
 
+const socialLinks = [
+  { key: "linkedin", label: "LinkedIn", Icon: Linkedin },
+  { key: "dribbble", label: "Dribbble", Icon: Dribbble },
+  { key: "behance", label: "Behance", Icon: PenTool },
+];
+
+function externalUrl(url) {
+  if (!url) return "";
+  return /^https?:\/\//i.test(url) ? url : `https://${url}`;
+}
+
 export default function Sidebar() {
   return (
     <aside className="lg:sticky lg:top-24 self-start print-break-inside-avoid">
@@ -80,27 +91,23 @@ export default function Sidebar() {
           </ul>
 
           <div className="mt-4 flex items-center gap-2">
-            <a
-              href="#"
-              className="h-8 w-8 grid place-items-center rounded-full border border-border hover:bg-muted transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="h-3.5 w-3.5" />
-            </a>
-            <a
-              href="#"
-              className="h-8 w-8 grid place-items-center rounded-full border border-border hover:bg-muted transition-colors"
-              aria-label="Dribbble"
-            >
-              <Dribbble className="h-3.5 w-3.5" />
-            </a>
-            <a
-              href="#"
-              className="h-8 w-8 grid place-items-center rounded-full border border-border hover:bg-muted transition-colors"
-              aria-label="Behance"
-            >
-              <PenTool className="h-3.5 w-3.5" />
-            </a>
+            {socialLinks.map(({ key, label, Icon }) => {
+              const href = externalUrl(profile.social?.[key]);
+              if (!href) return null;
+
+              return (
+                <a
+                  key={key}
+                  href={href}
+                  className="h-8 w-8 grid place-items-center rounded-full border border-border hover:bg-muted transition-colors"
+                  aria-label={label}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Icon className="h-3.5 w-3.5" />
+                </a>
+              );
+            })}
           </div>
         </div>
 
