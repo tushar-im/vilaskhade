@@ -83,7 +83,7 @@ export default function Resume() {
         <div className="absolute inset-0 bg-gradient-to-b from-[hsl(var(--accent-50))]/70 via-background to-background pointer-events-none" />
         <div className="grain absolute inset-0 pointer-events-none" />
 
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-10 pt-14 pb-10 md:pt-20 md:pb-16">
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-10 pt-14 pb-8 md:pt-20 md:pb-10">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_minmax(0,460px)] gap-10 lg:gap-14 items-center">
             {/* LEFT — text */}
             <div className="min-w-0">
