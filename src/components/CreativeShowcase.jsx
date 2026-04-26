@@ -108,7 +108,7 @@ export default function CreativeShowcase() {
                           {item.meta}
                         </div>
                       </div>
-                      <Badge className="rounded-full bg-white/95 text-foreground hover:bg-white text-[10px]">
+                      <Badge className="rounded-full bg-white/95 text-neutral-950 hover:bg-white text-[10px]">
                         {cat.label}
                       </Badge>
                     </div>
