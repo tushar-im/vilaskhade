@@ -242,7 +242,7 @@ export default function Resume() {
       </section>
 
       {/* MAIN GRID */}
-      <main className="max-w-7xl mx-auto px-6 lg:px-10 pb-24">
+      <main className="max-w-7xl mx-auto px-6 lg:px-10 pt-8 md:pt-10 pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-8 lg:gap-12">
           {/* Sidebar */}
           <Sidebar />
