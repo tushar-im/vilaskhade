@@ -305,45 +305,45 @@ export const projects = [
     ]
   },
   {
-    slug: "ops-monitoring-console",
-    title: "Ops Monitoring Console",
-    tag: "SaaS · Internal Tool",
+    slug: "car-climate-health-dashboard",
+    title: "CAR Climate & Health Dashboard",
+    tag: "Dashboard · Public Health",
     description:
-      "Multi-tenant monitoring console consolidating 14 legacy dashboards into one.",
-    image:
-      "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxTYWFTJTIwZGFzaGJvYXJkJTIwZGVzaWdufGVufDB8fHx8MTc3Njk5NzYyM3ww&ixlib=rb-4.1.0&q=85&w=1600",
+      "Climate and health analytics dashboard for flood impact, FOSA facilities, and vulnerable populations.",
+    image: "/projects/05-climate-dashboard/00-hero.png",
     year: "2022",
-    role: "Lead Designer",
-    duration: "7 months",
-    team: "1 PM · 1 Designer · 5 SREs",
-    client: "Internal Platform Team",
+    role: "UI/UX Designer",
+    duration: "Case study",
+    team: "Myself & Product Manager",
+    client: "Central African Republic Health Programme",
     platforms: ["Web"],
     overview:
-      "Replaced 14 legacy operations dashboards with a single multi-tenant console used by 90 SREs across 6 product lines. Cut tab-switching, mean-time-to-detect and onboarding time.",
+      "The CAR Climate & Health Dashboard is a web-based analytics platform for monitoring how floods, heavy precipitation, and natural hazards affect public health infrastructure in the Central African Republic. It combines climate, FOSA facility, HIV/Malaria service, and population risk data into one explorable dashboard.",
     problem:
-      "On-call engineers had 14 tabs open during incidents. MTTR was ballooning, and new SREs took 3 weeks to learn the tooling.",
+      "Recurring floods disrupt access to health facilities and increase disease risk, but health programme managers lacked a unified view of climate severity, facility impact, service access, and population displacement risk across siloed data sources.",
     process: [
-      { step: "01", title: "Workflow audit", body: "Mapped 9 incident playbooks across the 6 product lines." },
-      { step: "02", title: "Data model", body: "Co-designed a unified telemetry schema with the platform team." },
-      { step: "03", title: "Information density", body: "Pioneered a high-density table system optimised for 4K monitors." },
-      { step: "04", title: "Rollout", body: "Phased migration with side-by-side comparisons to win SRE trust." }
+      { step: "01", title: "Data layering", body: "Combined climate, health infrastructure, disease service, and population metrics." },
+      { step: "02", title: "Map anchor", body: "Centered the experience on an interactive CAR choropleth with facility markers." },
+      { step: "03", title: "Risk filters", body: "Designed tabs for flood story, cholera risk, HIV zones, and malaria zones." },
+      { step: "04", title: "Impact charts", body: "Created KPI tiles, donut cards, and pre/post flood access comparisons." }
     ],
     features: [
-      "Unified incident timeline across all services",
-      "High-density tables tuned for 4K war-room screens",
-      "Saved investigations + post-mortem export",
-      "Role-based views for SRE, Manager and Exec"
+      "Interactive CAR map with FOSA markers and layered crisis filters",
+      "Impacted infrastructure KPIs for FOSA, GeneXpert, and cholera-risk latrines",
+      "HIV and malaria service availability trend charts",
+      "Population-at-risk radial cards for people, pregnancies, and children",
+      "Pre-flood vs post-flood health service access charts",
+      "Historical hazard and precipitation analysis from 1980 to 2050"
     ],
     outcomes: [
-      { kpi: "−61%", label: "MTTR reduction" },
-      { kpi: "14→1", label: "dashboards consolidated" },
-      { kpi: "1 wk", label: "new SRE ramp-up time" },
-      { kpi: "90", label: "engineers onboarded" }
+      { kpi: "89", label: "FOSA facilities" },
+      { kpi: "72", label: "GeneXpert machines" },
+      { kpi: "447k", label: "population at risk" },
+      { kpi: "40+", label: "years of data" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1600&q=85",
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=85",
-      "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?w=1600&q=85"
+      "/projects/05-climate-dashboard/00-hero.png",
+      "/projects/05-climate-dashboard/01-dash.png"
     ]
   }
 ];
