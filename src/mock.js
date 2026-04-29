@@ -261,45 +261,47 @@ export const projects = [
     ]
   },
   {
-    slug: "employer-analytics-suite",
-    title: "Employer Analytics Suite",
-    tag: "Dashboard · B2B",
+    slug: "oneimpact-clm",
+    title: "OneImpact CLM",
+    tag: "Website · Data Visualisation",
     description:
-      "Hiring intelligence dashboard with candidate pipelines and predictive scoring.",
-    image:
-      "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwxfHxVSSUyMGRhc2hib2FyZCUyMG1vY2t1cHxlbnwwfHx8fDE3NzY5OTYyNTV8MA&ixlib=rb-4.1.0&q=85&w=1600",
+      "Stop TB Partnership website design for community-led monitoring, TB advocacy, and global reach.",
+    image: "/projects/04-one-impact/00-hero.png",
     year: "2022",
-    role: "Senior UX Designer",
-    duration: "4 months",
-    team: "1 PM · 2 Designers · 5 Engineers",
-    client: "B2B HR-Tech",
-    platforms: ["Web"],
+    role: "UI/UX Designer",
+    duration: "Case study",
+    team: "Myself & Product Manager",
+    client: "Stop TB Partnership",
+    platforms: ["Web", "Mobile App"],
     overview:
-      "End-to-end redesign of an employer analytics suite used by 400+ hiring managers. Modernised the IA, introduced predictive candidate scoring, and shipped a new design system.",
+      "OneImpact is the Stop TB Partnership's Community-Led Monitoring platform, designed to support the global effort to End TB by 2030. The website communicates the platform's mission, architecture, data tools, country reach, and impact to TB advocates, programme implementers, and funders.",
     problem:
-      "Hiring managers were drowning in spreadsheets. The old dashboard surfaced data, not decisions. Adoption was 31% and falling.",
+      "OneImpact serves a technically diverse global health audience and needed to explain a complex multi-stakeholder monitoring system, show country implementation status, present impact data, and connect the web platform with the OneImpact Family mobile app.",
     process: [
-      { step: "01", title: "Stakeholder map", body: "Interviewed 14 managers and 6 recruiters to pinpoint decision moments." },
-      { step: "02", title: "Information architecture", body: "Restructured 80+ widgets into 6 outcome-led views." },
-      { step: "03", title: "Predictive scoring UX", body: "Designed transparent scoring patterns that build trust in the model." },
-      { step: "04", title: "Design system v2", body: "Built component library with light/dark modes and dense table primitives." }
+      { step: "01", title: "Mission framing", body: "Structured the long-scroll narrative around CLM, TB response, and global impact." },
+      { step: "02", title: "Ecosystem diagrams", body: "Designed hex and stakeholder diagrams to explain community-led monitoring." },
+      { step: "03", title: "Data storytelling", body: "Used maps, status tables, KPIs, and 2030 charts to show programme scale." },
+      { step: "04", title: "Digital showcase", body: "Presented the web platform and mobile app as one connected monitoring system." }
     ],
     features: [
-      "Outcome-led dashboards (Time-to-hire, Quality, Pipeline)",
-      "Predictive candidate score with explainability",
-      "Saved views, custom filters, Slack alerts",
-      "Light/dark + density modes"
+      "Dark hero with OneImpact globe mark, headline stats, and partner logos",
+      "CLM framework hex diagram and stakeholder triangle visualisation",
+      "Country implementation status table and world map coverage layer",
+      "2030 End TB progress chart with projected and actual progress",
+      "OneImpact web and mobile app digital solution showcase",
+      "Case studies, news corner, resource library, and partner footer"
     ],
     outcomes: [
-      { kpi: "+58%", label: "weekly active users" },
-      { kpi: "−42%", label: "time-to-hire (median)" },
-      { kpi: "400+", label: "hiring managers" },
-      { kpi: "8.9/10", label: "CSAT score" }
+      { kpi: "70+", label: "countries framed" },
+      { kpi: "2030", label: "End TB target" },
+      { kpi: "1 map", label: "global journey" },
+      { kpi: "2 apps", label: "web and mobile" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?w=1600&q=85",
-      "https://images.unsplash.com/photo-1686061592689-312bbfb5c055?w=1600&q=85",
-      "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1600&q=85"
+      "/projects/04-one-impact/00-hero.png",
+      "/projects/04-one-impact/00-inffo.png",
+      "/projects/04-one-impact/01-info.png",
+      "/projects/04-one-impact/02-info.png"
     ]
   },
   {
