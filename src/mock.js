@@ -360,14 +360,12 @@ export const creativeWork = [
       {
         title: "Minimal wordmark system",
         meta: "Stationery \u00b7 2024",
-        image:
-          "https://images.pexels.com/photos/7661590/pexels-photo-7661590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        image: "/creatives/01-logos.png"
       },
       {
         title: "Lifestyle brand toolkit",
         meta: "Identity \u00b7 2023",
-        image:
-          "https://images.pexels.com/photos/12802261/pexels-photo-12802261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        image: "/creatives/02-logos.png"
       }
     ]
   },
@@ -382,14 +380,12 @@ export const creativeWork = [
       {
         title: "Public health impact report",
         meta: "Data viz \u00b7 2024",
-        image:
-          "https://images.pexels.com/photos/7947659/pexels-photo-7947659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        image: "/creatives/01-infographic.png"
       },
       {
         title: "Annual metrics one-pager",
         meta: "Print \u00b7 2023",
-        image:
-          "https://images.pexels.com/photos/7947963/pexels-photo-7947963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        image: "/creatives/02-infographic.png"
       }
     ]
   },
@@ -404,14 +400,12 @@ export const creativeWork = [
       {
         title: "Product launch promo",
         meta: "Motion graphics \u00b7 2024",
-        image:
-          "https://images.pexels.com/photos/1767783/pexels-photo-1767783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        image: "/creatives/01-videos.jpeg"
       },
       {
         title: "Training module series",
         meta: "Editing \u00b7 2023",
-        image:
-          "https://images.pexels.com/photos/29505140/pexels-photo-29505140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        image: "/creatives/02-videos.jpeg"
       }
     ]
   },
@@ -426,14 +420,12 @@ export const creativeWork = [
       {
         title: "Instagram carousel set",
         meta: "Meta Ads \u00b7 2024",
-        image:
-          "https://images.unsplash.com/photo-1611926653458-09294b3142bf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYSUyMGFkdmVydGlzaW5nfGVufDB8fHx8MTc3Njk5NzYyMXww&ixlib=rb-4.1.0&q=85&w=1200"
+        image: "/creatives/01-social-ads.png"
       },
       {
         title: "Google Display campaign",
         meta: "Performance \u00b7 2023",
-        image:
-          "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwyfHxzb2NpYWwlMjBtZWRpYSUyMGFkdmVydGlzaW5nfGVufDB8fHx8MTc3Njk5NzYyMXww&ixlib=rb-4.1.0&q=85&w=1200"
+        image: "/creatives/02-social-ads.png"
       }
     ]
   },
@@ -448,14 +440,12 @@ export const creativeWork = [
       {
         title: "Typographic event poster",
         meta: "Print \u00b7 2024",
-        image:
-          "https://images.unsplash.com/photo-1695634183707-03d9cc9aa8ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwxfHxwb3N0ZXIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MHx8fHwxNzc2OTk3NjI1fDA&ixlib=rb-4.1.0&q=85&w=1200"
+        image: "/creatives/01-posters.png"
       },
       {
         title: "Outdoor campaign poster",
         meta: "Out-of-home \u00b7 2023",
-        image:
-          "https://images.unsplash.com/photo-1695634184273-334faca3538d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzN8MHwxfHNlYXJjaHwyfHxwb3N0ZXIlMjBkZXNpZ24lMjBtb2NrdXB8ZW58MHx8fHwxNzc2OTk3NjI1fDA&ixlib=rb-4.1.0&q=85&w=1200"
+        image: "/creatives/02-posters.png"
       }
     ]
   }
