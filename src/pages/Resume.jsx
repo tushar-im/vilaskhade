@@ -18,9 +18,7 @@ import {
 } from "lucide-react";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
-import ContactDialog from "../components/ContactDialog";
 import CreativeShowcase from "../components/CreativeShowcase";
-import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
 import {
   profile,
@@ -50,7 +48,6 @@ import {
 );
 
 export default function Resume() {
-  const [contactOpen, setContactOpen] = useState(false);
   const [siteStats, setSiteStats] = useState({ views: null, messages: null });
 
   useEffect(() => {
@@ -72,11 +69,9 @@ export default function Resume() {
     run();
   }, []);
 
-  const handlePrint = () => window.print();
-
   return (
     <div id="top" className="min-h-screen">
-      <Header onContactClick={() => setContactOpen(true)} />
+      <Header />
 
       {/* HERO */}
       <section className="relative overflow-hidden">
@@ -132,21 +127,14 @@ export default function Resume() {
                 className="mt-8 flex flex-wrap gap-3 rise-in"
                 style={{ animationDelay: "0.2s" }}
               >
-                <Button
-                  size="lg"
-                  onClick={() => setContactOpen(true)}
-                  className="gap-2 rounded-full bg-foreground text-background hover:bg-foreground/90 h-11"
-                >
-                  Start a project <ArrowUpRight className="h-4 w-4" />
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  onClick={handlePrint}
-                  className="gap-2 rounded-full h-11 border-foreground/15 hover:bg-muted"
+                <a
+                  href="/resume-2026.pdf"
+                  className="h-11 inline-flex items-center gap-2 rounded-full border border-foreground/15 px-5 text-sm font-medium hover:bg-muted transition-colors"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <Download className="h-4 w-4" /> Download resume (PDF)
-                </Button>
+                </a>
               </div>
             </div>
 
@@ -504,13 +492,6 @@ export default function Resume() {
                     design system audits to 0→1 product design. Happy to chat.
                   </p>
                   <div className="mt-6 flex flex-wrap gap-3">
-                    <Button
-                      size="lg"
-                      onClick={() => setContactOpen(true)}
-                      className="gap-2 rounded-full bg-background text-foreground hover:bg-background/90 h-11"
-                    >
-                      Get in touch <ArrowUpRight className="h-4 w-4" />
-                    </Button>
                     <a
                       href={`mailto:${profile.email}`}
                       className="h-11 inline-flex items-center gap-2 rounded-full border border-background/20 px-5 text-sm hover:bg-background/10 transition-colors"
@@ -546,8 +527,6 @@ export default function Resume() {
           </div>
         </div>
       </footer>
-
-      <ContactDialog open={contactOpen} onOpenChange={setContactOpen} />
     </div>
   );
 }

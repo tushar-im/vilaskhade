@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Mail, ArrowUpRight, Sparkles } from "lucide-react";
-import { Button } from "./ui/button";
+import { Sparkles } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
@@ -12,7 +11,7 @@ const navItems = [
   { label: "Education", href: "#education" },
 ];
 
-export default function Header({ onContactClick }) {
+export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -58,14 +57,6 @@ export default function Header({ onContactClick }) {
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <Button
-            size="sm"
-            onClick={onContactClick}
-            className="gap-1.5 rounded-full bg-foreground text-background hover:bg-foreground/90"
-          >
-            <Mail className="h-3.5 w-3.5" /> Get in touch
-            <ArrowUpRight className="h-3.5 w-3.5" />
-          </Button>
         </div>
       </div>
 

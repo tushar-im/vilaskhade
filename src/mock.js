@@ -5,12 +5,12 @@ export const profile = {
   title: "Senior UI/UX Designer & Graphic Designer",
   tagline: "13+ years crafting human-centered digital products",
   avatar:
-    "https://images.pexels.com/photos/12903019/pexels-photo-12903019.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "avatar.jpeg",
   heroImage:
     "https://customer-assets.emergentagent.com/job_minimal-design-cv/artifacts/kvryq2eh_image1.jpeg",
   location: "Mumbai, India",
   email: "hello@vilaskhade.cc",
-  phone: "+91 98765 43210",
+  phone: "+91 9594985530",
   website: "vilaskhade.cc",
   social: {
     linkedin: "https://www.linkedin.com/in/vilas-khade-58740622/",
@@ -124,9 +124,9 @@ export const projects = [
     year: "2024",
     role: "UI/UX Designer",
     duration: "Case study",
-    team: "Driver users · Fleet managers",
+    team: "Myself & Product Manager",
     client: "Maxim",
-    platforms: ["Android", "iOS"],
+    platforms: ["Android", "Web"],
     overview:
       "Maxim is a fleet management mobile application for transport and logistics teams operating truck fleets. It supports drivers and fleet managers in real time, covering daily trip logging, expense booking, FM rate approvals, and manager-level review workflows through a clean blue-and-white interface with Maxim's orange truck branding.",
     problem:
@@ -168,7 +168,6 @@ export const projects = [
       { kpi: "1 flow", label: "driver-to-manager ops" }
     ],
     gallery: [
-      "/projects/01-maxim/00-featured.png",
       "/projects/01-maxim/01-login.png",
       "/projects/01-maxim/02-phone-app.png",
       "/projects/01-maxim/03-phone-app.png"
