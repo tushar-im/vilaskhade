@@ -211,52 +211,53 @@ export const projects = [
       { kpi: "1 page", label: "mission-to-impact story" }
     ],
     gallery: [
-      "/projects/02-access-website/01-hero.png",
-      "/projects/02-access-website/01-page.png",
       "/projects/02-access-website/02-page.png",
+      "/projects/02-access-website/01-page.png",
       "/projects/02-access-website/04-page.png"
     ]
   },
   {
-    slug: "field-worker-mobile-app",
-    title: "Field Worker Mobile App",
-    tag: "Mobile · iOS/Android",
+    slug: "family-planning-app",
+    title: "Family Planning App",
+    tag: "Mobile Health · Public Health",
     description:
-      "Offline-first app helping community health workers log visits on low-end devices.",
-    image:
-      "https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzc2OTk2MjU5fDA&ixlib=rb-4.1.0&q=85&w=1600",
+      "Mobile health app for family planning knowledge, AI counselling, nearby care, and reminders.",
+    image: "/projects/03-family-planning/01-hero.jpg",
     year: "2023",
-    role: "Mobile UX Lead",
-    duration: "6 months",
-    team: "1 PM · 1 Designer · 4 Engineers",
-    client: "Dure Technologies × Public Health Programme",
+    role: "UI/UX Designer",
+    duration: "Case study",
+    team: "Myself & Product Manager",
+    client: "Public Health Programme",
     platforms: ["iOS", "Android"],
     overview:
-      "Native mobile app used by 8,000+ community health workers in rural districts. Optimised for ₹4,000 Android phones, intermittent connectivity and 11 regional languages.",
+      "A mobile health application designed to empower individuals and families with accessible family planning knowledge, virtual counselling, nearby care discovery, reminders, monitoring, and peer support in one place.",
     problem:
-      "Workers were carrying paper forms; data entry happened at end-of-week, often inaccurately. Existing apps crashed on low-end devices and required constant connectivity.",
+      "Many individuals lack easy access to reliable family planning information, qualified counsellors, and nearby health facilities, leading to uninformed decisions and missed preventive care.",
     process: [
-      { step: "01", title: "Field research", body: "Spent 3 weeks shadowing CHWs across 6 districts to map the real workflow." },
-      { step: "02", title: "Constraints first", body: "Designed for 360×640 screens, 1GB RAM, intermittent 2G connectivity." },
-      { step: "03", title: "Localisation", body: "Worked with translators across 11 regional languages, including RTL Urdu." },
-      { step: "04", title: "Field testing", body: "Daily-build testing with 20 workers across 4 weeks before launch." }
+      { step: "01", title: "Feature mapping", body: "Grouped education, counselling, clinic discovery, reminders, and community support." },
+      { step: "02", title: "Navigation design", body: "Built flat icon-led navigation with circular modules for quick access." },
+      { step: "03", title: "Chatbot UX", body: "Designed Ate Melai counselling with topic lists, ratings, voice, and text input." },
+      { step: "04", title: "Care access", body: "Connected map-based nearby facilities with call and directions actions." }
     ],
     features: [
-      "Offline-first sync — works on 2G, syncs when online",
-      "Voice-input for low-literacy users",
-      "11 regional languages with RTL support",
-      "Battery-optimised: ~2% drain per shift"
+      "Virtual counselling with AI-powered Ate Melai chat",
+      "Voice and text input for sensitive family planning questions",
+      "Near Me map for hospitals, clinics, and pharmacies",
+      "CLM intervention sessions with follow-up tracking",
+      "Reminders, monitoring, and adherence support",
+      "Community forum and awareness hub for self-guided learning"
     ],
     outcomes: [
-      { kpi: "8k+", label: "active field workers" },
-      { kpi: "94%", label: "form completion rate" },
-      { kpi: "5×", label: "faster data entry" },
-      { kpi: "4.7★", label: "Play Store rating" }
+      { kpi: "8", label: "core features" },
+      { kpi: "24/7", label: "AI counsellor access" },
+      { kpi: "1 tap", label: "calls and directions" },
+      { kpi: "1 app", label: "knowledge-to-care flow" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?w=1600&q=85",
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=85",
-      "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1600&q=85"
+      "/projects/03-family-planning/01-hero.jpg",
+      "/projects/03-family-planning/02-feature.png",
+      "/projects/03-family-planning/03-screens.png",
+      "/projects/03-family-planning/04-screens.png"
     ]
   },
   {
