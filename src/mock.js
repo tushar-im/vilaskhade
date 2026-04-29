@@ -115,61 +115,63 @@ export const experience = [
 
 export const projects = [
   {
-    slug: "public-health-monitoring",
-    title: "Public Health Monitoring Platform",
-    tag: "Dashboard · SaaS",
+    slug: "maxim-fleet-management",
+    title: "Maxim Fleet Management App",
+    tag: "Mobile · Fleet Ops",
     description:
-      "Real-time reporting suite for NGOs tracking TB & HIV programmes across regions.",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwzfHxVSSUyMGRhc2hib2FyZCUyMG1vY2t1cHxlbnwwfHx8fDE3NzY5OTYyNTV8MA&ixlib=rb-4.1.0&q=85&w=1600",
+      "Driver and manager mobile workflows for trip logs, expenses, approvals, and fleet operations.",
+    image: "/projects/01-maxim/00-featured.png",
     year: "2024",
-    role: "Lead Product Designer",
-    duration: "8 months",
-    team: "1 PM · 2 Designers · 6 Engineers",
-    client: "Dure Technologies × Global Health NGO",
-    platforms: ["Web", "Tablet"],
+    role: "UI/UX Designer",
+    duration: "Case study",
+    team: "Driver users · Fleet managers",
+    client: "Maxim",
+    platforms: ["Android", "iOS"],
     overview:
-      "A unified reporting platform consolidating 14 country programmes into a single dashboard, used daily by 1,200+ field officers and donors. Replaces three legacy Excel-based workflows.",
+      "Maxim is a fleet management mobile application for transport and logistics teams operating truck fleets. It supports drivers and fleet managers in real time, covering daily trip logging, expense booking, FM rate approvals, and manager-level review workflows through a clean blue-and-white interface with Maxim's orange truck branding.",
     problem:
-      "Country teams spent 6+ hours/week manually compiling reports from spreadsheets. Donor reviews lagged by weeks, and decision-makers couldn't see programme health in real time.",
+      "Fleet operators were relying on paper-based daily logs, manual expense claims, and slow approval chains for FM rates and purchase orders. Drivers needed a mobile way to log trips, upload receipts, and report emergencies, while managers needed a consolidated review workflow on the go.",
     process: [
       {
         step: "01",
-        title: "Discovery",
-        body: "Shadowed 18 field officers across 4 countries; mapped 12 distinct reporting workflows."
+        title: "Role mapping",
+        body: "Separated driver tasks and manager approvals into distinct mobile workflows."
       },
       {
         step: "02",
-        title: "Synthesis",
-        body: "Affinity-mapped 240 pain points down to 6 jobs-to-be-done that drove the IA."
+        title: "Dashboard design",
+        body: "Built an icon-led home dashboard with live trip progress and quick modules."
       },
       {
         step: "03",
-        title: "Design system",
-        body: "Built 'Pulse DS' — 80 components, dark/light, accessible to WCAG AA."
+        title: "Workflow forms",
+        body: "Designed daily logs, expense booking, uploads, and OTP-friendly access."
       },
       {
         step: "04",
-        title: "Validation",
-        body: "Tested prototypes with 22 users in 5 rounds; iterated on filtering, exports & alerts."
+        title: "Approval patterns",
+        body: "Created manager review cards and modal actions for forward, approve, or reject decisions."
       }
     ],
     features: [
-      "Real-time KPI dashboards with country-level drill-down",
-      "Smart alert center with anomaly detection",
-      "One-click PDF & PowerPoint export for donor reports",
-      "Offline-first data sync for low-bandwidth regions"
+      "Driver trip dashboard with progress, KM, and daily target status",
+      "Daily log form for vehicle, route, KM, reason, and file upload",
+      "Expense booking with category tabs, amount entry, and receipt capture",
+      "Manager review panel for FM Rate Approval, PO Approval, and Driver Expense",
+      "FM approval bottom sheet with transaction details and decision actions",
+      "SOS access from home dashboard and profile for roadside incidents"
     ],
     outcomes: [
-      { kpi: "73%", label: "less time on reporting" },
-      { kpi: "20+", label: "countries onboarded" },
-      { kpi: "1.2k", label: "daily active users" },
-      { kpi: "WCAG AA", label: "accessibility rating" }
+      { kpi: "9", label: "key screens designed" },
+      { kpi: "3", label: "approval types" },
+      { kpi: "7", label: "quick-access modules" },
+      { kpi: "1 flow", label: "driver-to-manager ops" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=85",
-      "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?w=1600&q=85",
-      "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1600&q=85"
+      "/projects/01-maxim/00-featured.png",
+      "/projects/01-maxim/01-login.png",
+      "/projects/01-maxim/02-phone-app.png",
+      "/projects/01-maxim/03-phone-app.png"
     ]
   },
   {
