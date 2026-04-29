@@ -138,26 +138,26 @@ export default function Resume() {
               </div>
             </div>
 
-            {/* RIGHT — circular hero image with coral ring */}
+            {/* RIGHT — circular hero image with blue ring */}
             <div className="relative mx-auto lg:mx-0 w-full max-w-[460px] aspect-square rise-in" style={{ animationDelay: "0.15s" }}>
-              {/* Soft coral glow */}
-              <div className="absolute inset-0 rounded-full bg-[hsl(var(--coral-500))]/25 blur-3xl scale-90" />
+              {/* Soft blue glow */}
+              <div className="absolute inset-0 rounded-full bg-[#84aaf3]/25 blur-3xl scale-90" />
 
-              {/* Outer thin coral ring */}
-              <div className="absolute -inset-4 rounded-full border border-[hsl(var(--coral-500))]/30" />
+              {/* Outer thin blue ring */}
+              <div className="absolute -inset-4 rounded-full border border-[#84aaf3]/30" />
 
               {/* Slowly rotating dashed ring */}
               <div className="absolute -inset-2 spin-slow">
                 <div
                   className="absolute inset-0 rounded-full"
                   style={{
-                    border: "1.5px dashed hsl(var(--coral-500) / 0.45)",
+                    border: "1.5px dashed rgb(132 170 243 / 0.45)",
                   }}
                 />
               </div>
 
-              {/* Solid coral ring closer to image */}
-              <div className="absolute inset-0 rounded-full ring-[6px] ring-[hsl(var(--coral-500))]/90 ring-offset-[6px] ring-offset-background overflow-hidden shadow-[0_30px_80px_-20px_hsl(var(--coral-500)/0.45)]">
+              {/* Solid blue ring closer to image */}
+              <div className="absolute inset-0 rounded-full ring-[6px] ring-[#84aaf3]/90 ring-offset-[6px] ring-offset-background overflow-hidden shadow-[0_30px_80px_-20px_rgb(132_170_243/0.45)]">
                 <img
                   src={profile.heroImage}
                   alt="Designer at work"
