@@ -337,7 +337,7 @@ export default function Resume() {
                       </span>{" "}
                       and{" "}
                       <span className="font-semibold text-foreground">
-                        Banana AI
+                        Stitch by Google
                       </span>{" "}
                       for ideation, rapid prototyping, UX writing, content
                       generation and design enhancement — shipping better work,

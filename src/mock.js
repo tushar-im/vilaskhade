@@ -65,8 +65,8 @@ export const aiTools = [
     use: "Workflow automation for design ops"
   },
   {
-    name: "Banana AI",
-    use: "Visual generation & enhancement"
+    name: "Stitch by Google",
+    use: "AI-assisted UI exploration"
   }
 ];
 
