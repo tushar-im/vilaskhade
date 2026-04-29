@@ -174,45 +174,47 @@ export const projects = [
     ]
   },
   {
-    slug: "ai-insights-workspace",
-    title: "AI Insights Workspace",
-    tag: "AI Product · Web",
+    slug: "access-accelerated-website",
+    title: "Access Accelerated Website",
+    tag: "Website · Global Health",
     description:
-      "Conversational analytics workspace that turns raw data into narrative insights.",
-    image:
-      "https://images.unsplash.com/photo-1686061592689-312bbfb5c055?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHw0fHxTYWFTJTIwZGFzaGJvYXJkJTIwZGVzaWdufGVufDB8fHx8MTc3Njk5NjI2M3ww&ixlib=rb-4.1.0&q=85&w=1600",
+      "Public-facing website design for a World Bank partnership focused on NCD access and impact.",
+    image: "/projects/02-access-website/01-hero.png",
     year: "2024",
-    role: "Senior Product Designer",
-    duration: "5 months",
-    team: "1 PM · 1 Designer · 4 Engineers · 1 Data Scientist",
-    client: "Internal SaaS · 0→1",
+    role: "UI/UX Designer",
+    duration: "Homepage case study",
+    team: "Myself & Product Manager",
+    client: "Access Accelerated",
     platforms: ["Web"],
     overview:
-      "A natural-language analytics workspace where business users can ask questions of their data and receive narrative answers, charts and follow-up suggestions — without writing SQL.",
+      "Access Accelerated is a global initiative bringing together biopharmaceutical companies and the World Bank to improve access to prevention and treatment for non-communicable diseases in low- and middle-income countries. The website communicates the initiative's mission, impact data, partnerships, news, and member organisations to health professionals, policymakers, and stakeholders.",
     problem:
-      "Non-technical leaders waited days for analyst replies. Existing BI tools assumed SQL fluency. We needed an AI-native experience that felt safe, accurate, and explainable.",
+      "The homepage needed to balance a serious, data-driven global health mission with human storytelling, credible impact statistics, SDG alignment, partnership content, news, resources, and member organisations without overwhelming visitors.",
     process: [
-      { step: "01", title: "Concept testing", body: "Prototyped 4 conversational paradigms; chose hybrid chat + canvas." },
-      { step: "02", title: "Trust patterns", body: "Designed citation chips, confidence bands and 'show your work' panels." },
-      { step: "03", title: "Visual language", body: "Crafted a calm, monochrome palette with one accent for AI-generated content." },
-      { step: "04", title: "Iteration", body: "10+ usability sessions tuning latency, error states and recovery." }
+      { step: "01", title: "Narrative structure", body: "Organised a long-scroll homepage from mission to impact, resources, and members." },
+      { step: "02", title: "Visual hierarchy", body: "Designed clear section rhythms for policy, donor, and health stakeholder audiences." },
+      { step: "03", title: "Impact storytelling", body: "Paired documentary photography with large statistics and SDG alignment cues." },
+      { step: "04", title: "Action system", body: "Used orange CTAs consistently across the page to guide user engagement." }
     ],
     features: [
-      "Ask-in-English query bar with smart autocomplete",
-      "Inline citations linking back to source tables",
-      "Pinned insights, shareable narrative reports",
-      "AI confidence indicators on every chart"
+      "Full-width photographic hero with mission-led headline and primary CTA",
+      "Who We Are and World Bank partnership content sections",
+      "NCD challenge and investment impact editorial sections",
+      "Global reach stats for countries and people impacted",
+      "SDG alignment section with colourful wheel component",
+      "News, events, resources, member logos, and newsletter footer"
     ],
     outcomes: [
-      { kpi: "4×", label: "faster time to insight" },
-      { kpi: "62%", label: "of queries self-served" },
-      { kpi: "9.1/10", label: "trust score (NPS)" },
-      { kpi: "0→1", label: "shipped in 5 months" }
+      { kpi: "22", label: "countries highlighted" },
+      { kpi: "22M", label: "people represented" },
+      { kpi: "3", label: "SDG targets aligned" },
+      { kpi: "1 page", label: "mission-to-impact story" }
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1686061592689-312bbfb5c055?w=1600&q=85",
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=85",
-      "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?w=1600&q=85"
+      "/projects/02-access-website/01-hero.png",
+      "/projects/02-access-website/01-page.png",
+      "/projects/02-access-website/02-page.png",
+      "/projects/02-access-website/04-page.png"
     ]
   },
   {
