@@ -118,7 +118,7 @@ export const projects = [
     tag: "Mobile · Fleet Ops",
     description:
       "Driver and manager mobile workflows for trip logs, expenses, approvals, and fleet operations.",
-    image: "/projects/01-maxim/00-featured.png",
+    image: "/projects/01-maxim/00-featured.jpeg",
     year: "2024",
     role: "UI/UX Designer",
     duration: "Case study",
@@ -166,9 +166,9 @@ export const projects = [
       { kpi: "1 flow", label: "driver-to-manager ops" }
     ],
     gallery: [
-      "/projects/01-maxim/01-login.png",
-      "/projects/01-maxim/02-phone-app.png",
-      "/projects/01-maxim/03-phone-app.png"
+      "/projects/01-maxim/01-login.jpeg",
+      "/projects/01-maxim/02-phone-app.jpeg",
+      "/projects/01-maxim/03-phone-app.jpeg"
     ]
   },
   {
@@ -177,7 +177,7 @@ export const projects = [
     tag: "Website · Global Health",
     description:
       "Public-facing website design for a World Bank partnership focused on NCD access and impact.",
-    image: "/projects/02-access-website/01-hero.png",
+    image: "/projects/02-access-website/01-hero.jpeg",
     year: "2024",
     role: "UI/UX Designer",
     duration: "Homepage case study",
@@ -209,9 +209,9 @@ export const projects = [
       { kpi: "1 page", label: "mission-to-impact story" }
     ],
     gallery: [
-      "/projects/02-access-website/02-page.png",
-      "/projects/02-access-website/01-page.png",
-      "/projects/02-access-website/04-page.png"
+      "/projects/02-access-website/02-page.jpeg",
+      "/projects/02-access-website/01-page.jpeg",
+      "/projects/02-access-website/04-page.jpeg"
     ]
   },
   {
@@ -220,7 +220,7 @@ export const projects = [
     tag: "Mobile Health · Public Health",
     description:
       "Mobile health app for family planning knowledge, AI counselling, nearby care, and reminders.",
-    image: "/projects/03-family-planning/01-hero.jpg",
+    image: "/projects/03-family-planning/01-hero.jpeg",
     year: "2023",
     role: "UI/UX Designer",
     duration: "Case study",
@@ -252,10 +252,9 @@ export const projects = [
       { kpi: "1 app", label: "knowledge-to-care flow" }
     ],
     gallery: [
-      "/projects/03-family-planning/01-hero.jpg",
-      "/projects/03-family-planning/02-feature.png",
-      "/projects/03-family-planning/03-screens.png",
-      "/projects/03-family-planning/04-screens.png"
+      "/projects/03-family-planning/02-feature.jpeg",
+      "/projects/03-family-planning/03-screens.jpeg",
+      "/projects/03-family-planning/04-screens.jpeg"
     ]
   },
   {
@@ -264,7 +263,7 @@ export const projects = [
     tag: "Website · Data Visualisation",
     description:
       "Stop TB Partnership website design for community-led monitoring, TB advocacy, and global reach.",
-    image: "/projects/04-one-impact/00-hero.png",
+    image: "/projects/04-one-impact/00-hero.jpeg",
     year: "2022",
     role: "UI/UX Designer",
     duration: "Case study",
@@ -296,10 +295,9 @@ export const projects = [
       { kpi: "2 apps", label: "web and mobile" }
     ],
     gallery: [
-      "/projects/04-one-impact/00-hero.png",
-      "/projects/04-one-impact/00-inffo.png",
-      "/projects/04-one-impact/01-info.png",
-      "/projects/04-one-impact/02-info.png"
+      "/projects/04-one-impact/00-info.jpeg",
+      "/projects/04-one-impact/01-info.jpeg",
+      "/projects/04-one-impact/02-info.jpeg"
     ]
   },
   {
@@ -308,7 +306,7 @@ export const projects = [
     tag: "Dashboard · Public Health",
     description:
       "Climate and health analytics dashboard for flood impact, FOSA facilities, and vulnerable populations.",
-    image: "/projects/05-climate-dashboard/00-hero.png",
+    image: "/projects/05-climate-dashboard/00-hero.jpeg",
     year: "2022",
     role: "UI/UX Designer",
     duration: "Case study",
@@ -340,8 +338,8 @@ export const projects = [
       { kpi: "40+", label: "years of data" }
     ],
     gallery: [
-      "/projects/05-climate-dashboard/00-hero.png",
-      "/projects/05-climate-dashboard/01-dash.png"
+      "/projects/05-climate-dashboard/00-hero.jpeg",
+      "/projects/05-climate-dashboard/01-dash.jpeg"
     ]
   }
 ];
@@ -380,12 +378,12 @@ export const creativeWork = [
       {
         title: "Public health impact report",
         meta: "Data viz \u00b7 2024",
-        image: "/creatives/01-infographic.png"
+        image: "/creatives/01-infographic.jpg"
       },
       {
         title: "Annual metrics one-pager",
         meta: "Print \u00b7 2023",
-        image: "/creatives/02-infographic.png"
+        image: "/creatives/02-infographic.jpg"
       }
     ]
   },
@@ -422,12 +420,12 @@ export const creativeWork = [
       {
         title: "Instagram carousel set",
         meta: "Meta Ads \u00b7 2024",
-        image: "/creatives/01-social-ads.png"
+        image: "/creatives/01-social-ads.jpeg"
       },
       {
         title: "Google Display campaign",
         meta: "Performance \u00b7 2023",
-        image: "/creatives/02-social-ads.png"
+        image: "/creatives/02-social-ads.jpeg"
       }
     ]
   },
@@ -443,12 +441,12 @@ export const creativeWork = [
       {
         title: "Typographic event poster",
         meta: "Print \u00b7 2024",
-        image: "/creatives/01-posters.png"
+        image: "/creatives/01-posters.jpeg"
       },
       {
         title: "Outdoor campaign poster",
         meta: "Out-of-home \u00b7 2023",
-        image: "/creatives/02-posters.png"
+        image: "/creatives/02-posters.jpeg"
       }
     ]
   }
