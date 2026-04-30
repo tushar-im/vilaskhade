@@ -91,12 +91,12 @@ export default function Resume() {
 
               <h1 className="font-display font-extrabold text-4xl md:text-5xl lg:text-[60px] leading-[1.05] tracking-tight text-foreground rise-in">
                 Turning complex problems into{" "}
-                <span className="text-[hsl(var(--coral-600))]">
+                <span className="text-[#84aaf3]">
                   simple, human{" "}
                   <span className="relative inline-block">
                     experiences
                     <svg
-                      className="absolute -bottom-1 left-0 w-full h-2 text-[hsl(var(--coral-500))]/70"
+                      className="absolute -bottom-1 left-0 w-full h-2 text-[#84aaf3]/70"
                       viewBox="0 0 200 8"
                       preserveAspectRatio="none"
                       fill="none"
