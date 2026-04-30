@@ -13,7 +13,6 @@ export const profile = {
   website: "vilaskhade.cc",
   social: {
     linkedin: "https://www.linkedin.com/in/vilas-khade-58740622/",
-    dribbble: "dribbble.com/vilaskhade",
     behance: "behance.net/vilaskhade"
   }
 };

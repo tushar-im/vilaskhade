@@ -5,7 +5,6 @@ import {
   MapPin,
   Globe,
   Linkedin,
-  Dribbble,
   Figma,
   PenTool,
   Image as ImageIcon,
@@ -27,7 +26,6 @@ const toolIconMap = {
 
 const socialLinks = [
   { key: "linkedin", label: "LinkedIn", Icon: Linkedin },
-  { key: "dribbble", label: "Dribbble", Icon: Dribbble },
   { key: "behance", label: "Behance", Icon: PenTool },
 ];
 
