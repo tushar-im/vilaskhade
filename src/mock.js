@@ -353,6 +353,7 @@ export const creativeWork = [
     id: "logo",
     label: "Logo & Branding",
     icon: "PenTool",
+    galleryUrl: "https://www.behance.net/gallery/247470355/Logo-Design",
     blurb:
       "Identity systems, marks and guidelines for startups and established brands.",
     count: "40+ identities",
@@ -373,6 +374,7 @@ export const creativeWork = [
     id: "infographics",
     label: "Infographics",
     icon: "BarChart3",
+    galleryUrl: "https://www.behance.net/gallery/247467697/Data-Visualization-Infographic-Design",
     blurb:
       "Turning dense data into scannable, story-driven visuals for reports & social.",
     count: "60+ graphics",
@@ -393,6 +395,7 @@ export const creativeWork = [
     id: "motion",
     label: "Video & Motion",
     icon: "Video",
+    galleryUrl: "https://www.behance.net/gallery/247470549/Video-Making-and-Editing",
     blurb:
       "Promos, product explainers and training videos edited in Camtasia + After Effects.",
     count: "80+ videos",
@@ -413,6 +416,7 @@ export const creativeWork = [
     id: "ads",
     label: "Social & Paid Ads",
     icon: "Megaphone",
+    galleryUrl: "https://www.behance.net/gallery/246890565/Social-Media-Ads-Design",
     blurb:
       "Google Display, Instagram & Meta ad creatives built for performance and recall.",
     count: "200+ creatives",
@@ -433,6 +437,7 @@ export const creativeWork = [
     id: "posters",
     label: "Poster Design",
     icon: "Image",
+    galleryUrl: "https://www.behance.net/gallery/247469837/Poster-Print-Design",
     blurb:
       "Large-format posters and event collateral \u2014 typographic and image-led.",
     count: "50+ posters",

@@ -71,7 +71,9 @@ export default function CreativeShowcase() {
                 </p>
               </div>
               <a
-                href="#"
+                href={cat.galleryUrl}
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-1 text-sm text-[hsl(var(--accent-600))] font-medium hover:gap-2 transition-all"
               >
                 View gallery
@@ -81,39 +83,45 @@ export default function CreativeShowcase() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {cat.items.map((item, idx) => (
-                <figure
+                <a
                   key={idx}
+                  href={cat.galleryUrl}
+                  target="_blank"
+                  rel="noreferrer"
                   className="group relative rounded-2xl overflow-hidden border border-border bg-background"
+                  aria-label={`View ${cat.label} gallery on Behance`}
                 >
-                  <div className="aspect-[4/3] overflow-hidden bg-muted">
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      loading="lazy"
-                      className="h-full w-full object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-out"
-                    />
-                  </div>
-                  {cat.id === "motion" && (
-                    <span className="absolute top-3 right-3 h-9 w-9 grid place-items-center rounded-full bg-background/90 backdrop-blur border border-border shadow-sm">
-                      <Play className="h-4 w-4 text-foreground fill-foreground" />
-                    </span>
-                  )}
-                  <figcaption className="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
-                    <div className="flex items-end justify-between gap-3">
-                      <div>
-                        <div className="text-white font-medium text-sm leading-tight">
-                          {item.title}
-                        </div>
-                        <div className="text-white/70 text-[11px] mt-0.5">
-                          {item.meta}
-                        </div>
-                      </div>
-                      <Badge className="rounded-full bg-white/95 text-neutral-950 hover:bg-white text-[10px]">
-                        {cat.label}
-                      </Badge>
+                  <figure>
+                    <div className="aspect-[4/3] overflow-hidden bg-muted">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        loading="lazy"
+                        className="h-full w-full object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-out"
+                      />
                     </div>
-                  </figcaption>
-                </figure>
+                    {cat.id === "motion" && (
+                      <span className="absolute top-3 right-3 h-9 w-9 grid place-items-center rounded-full bg-background/90 backdrop-blur border border-border shadow-sm">
+                        <Play className="h-4 w-4 text-foreground fill-foreground" />
+                      </span>
+                    )}
+                    <figcaption className="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
+                      <div className="flex items-end justify-between gap-3">
+                        <div>
+                          <div className="text-white font-medium text-sm leading-tight">
+                            {item.title}
+                          </div>
+                          <div className="text-white/70 text-[11px] mt-0.5">
+                            {item.meta}
+                          </div>
+                        </div>
+                        <Badge className="rounded-full bg-white/95 text-neutral-950 hover:bg-white text-[10px]">
+                          {cat.label}
+                        </Badge>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </a>
               ))}
             </div>
           </TabsContent>
