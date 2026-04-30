@@ -88,7 +88,7 @@ export default function Sidebar() {
             </li>
           </ul>
 
-          <div className="mt-4 flex items-center gap-2">
+          <div className="mt-4 flex flex-wrap items-center gap-2">
             {socialLinks.map(({ key, label, Icon }) => {
               const href = externalUrl(profile.social?.[key]);
               if (!href) return null;
@@ -97,12 +97,13 @@ export default function Sidebar() {
                 <a
                   key={key}
                   href={href}
-                  className="h-8 w-8 grid place-items-center rounded-full border border-border hover:bg-muted transition-colors"
+                  className="inline-flex h-9 items-center gap-2 rounded-full border border-border bg-background px-3 text-xs font-medium text-foreground/90 transition-colors hover:border-[hsl(var(--accent-500))]/35 hover:bg-muted"
                   aria-label={label}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Icon className="h-3.5 w-3.5" />
+                  <Icon className="h-3.5 w-3.5 text-[hsl(var(--accent-500))]" />
+                  <span>{label}</span>
                 </a>
               );
             })}
