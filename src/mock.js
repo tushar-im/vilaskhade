@@ -6,8 +6,7 @@ export const profile = {
   tagline: "13+ years crafting human-centered digital products",
   avatar:
     "avatar.jpeg",
-  heroImage:
-    "https://customer-assets.emergentagent.com/job_minimal-design-cv/artifacts/kvryq2eh_image1.jpeg",
+  heroImage: "/hero.jpeg",
   location: "Mumbai, India",
   email: "hello@vilaskhade.cc",
   phone: "+91 9594985530",
