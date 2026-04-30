@@ -437,10 +437,10 @@ export default function Resume() {
                 href="https://www.behance.net/vilaskhade"
                 target="_blank"
                 rel="noreferrer"
-                className="mt-7 flex h-14 w-full items-center justify-center gap-2 rounded-2xl border border-[hsl(var(--accent-500))]/30 bg-[hsl(var(--accent-50))] px-5 text-sm font-semibold text-[hsl(var(--accent-700))] transition-all hover:-translate-y-0.5 hover:border-[hsl(var(--accent-500))]/45 hover:bg-[hsl(var(--accent-100))] dark:bg-[hsl(var(--accent-900))]/20 dark:text-[hsl(var(--accent-300))] dark:hover:bg-[hsl(var(--accent-900))]/35"
+                className="group mt-7 flex h-14 w-full items-center justify-center gap-2 rounded-2xl border border-border bg-card px-5 text-sm font-semibold text-[hsl(var(--accent-600))] transition-all hover:-translate-y-0.5 hover:border-[hsl(var(--accent-500))]/35 hover:bg-muted"
               >
-                View more projects
-                <ArrowUpRight className="h-4 w-4" />
+                View more projects on Behance
+                <ArrowUpRight className="h-4 w-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
             </section>
 
